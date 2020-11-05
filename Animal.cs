@@ -5,6 +5,10 @@ namespace Interface_Segregation_Principle {
         public void Eat(){
             Console.WriteLine("Nom nom");
         }
+
+        public void Sleep(){
+            Console.WriteLine("Zzzzz");
+        }
         public void Walk () {
             Console.WriteLine ("Walking..");
         }
