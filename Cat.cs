@@ -2,7 +2,7 @@ using System;
 
 namespace Interface_Segregation_Principle 
 {
-    class Cat : ICat, ISleep 
+    class Cat : ICat, IEat, IWalk, ISleep
     {
         public string Name { get; set; }
 

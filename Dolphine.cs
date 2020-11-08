@@ -2,7 +2,7 @@ using System;
 
 namespace Interface_Segregation_Principle
 {
-    class Dog : IDog
+    class Dog : IEat, ISleep, ISwim
     {
         public string Name { get; set; }
 
