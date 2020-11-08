@@ -6,7 +6,7 @@ namespace Interface_Segregation_Principle
     {
         public string Name { get; set; }
 
-        public void Bark () 
+        public void Bark() 
         {
             Console.WriteLine ("Woof!");
         }
@@ -20,6 +20,7 @@ namespace Interface_Segregation_Principle
         {
             Console.WriteLine("Zzzzz...");
         }
+
         public void Walk(int Yaxis, int Xaxis)
         {
             Console.WriteLine("Stamp...stamp...stamp...");
