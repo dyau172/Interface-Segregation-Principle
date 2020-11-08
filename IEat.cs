@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Interface_Segregation_Principle
 {
-    interface IWalk
+    interface IEat
     {
-        using Walk();
+        void Eat();
     }
 }

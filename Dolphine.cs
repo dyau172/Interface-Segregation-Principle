@@ -2,17 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Interface_Segregation_Principle 
+namespace Interface_Segregation_Principle
 {
-    class Dog : IDog, IEat, IWalk, ISleep
+    class Dog : IEat, ISleep, ISwim
     {
         public string Name { get; set; }
 
-        public void Bark() 
-        {
-            Console.WriteLine ("Woof!");
-        }
-      
         public void Eat()
         {
             Console.WriteLine("Num...Num...Num...");
@@ -23,9 +18,9 @@ namespace Interface_Segregation_Principle
             Console.WriteLine("Zzzzz...");
         }
 
-        public void Walk(int Yaxis, int Xaxis)
+        public void Swiming(int Yaxis, int Xaxis, int Zaxis)
         {
-            Console.WriteLine("Stamp...stamp...stamp...");
+            Console.WriteLine("Plop...plop...plop...");
         }
     }
 }
