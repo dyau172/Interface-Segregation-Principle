@@ -11,7 +11,7 @@ namespace Interface_Segregation_Principle
             Console.WriteLine("Zzzzz");
         }
 
-        public void Meow () 
+        public void Meow() 
         {
             Console.WriteLine ("Meeeeeow");
         }
