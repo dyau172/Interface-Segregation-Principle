@@ -10,5 +10,19 @@ namespace Interface_Segregation_Principle
         {
             Console.WriteLine ("Woof!");
         }
+      
+        public void Eat()
+        {
+            Console.WriteLine("Num...Num...Num...");
+        }
+
+        public void Sleep(int time)
+        {
+            Console.WriteLine("Zzzzz...");
+        }
+        public void Walk(int Yaxis, int Xaxis)
+        {
+            Console.WriteLine("Stamp...stamp...stamp...");
+        }
     }
 }
