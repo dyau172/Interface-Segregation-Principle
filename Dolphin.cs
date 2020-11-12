@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Interface_Segregation_Principle
 {
-    class Dog : IEat, ISleep, ISwim
+    class Dolphin : IEat, ISleep, ISwim
     {
         public string Name { get; set; }
 
